@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+    
+body{
+    align-items: center;
+    background:linear-gradient(to left top, #F9EFDB, #EBD9B4, #9DBC98);
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    font-family: 'Dosis' ,sans-serif;
+}
+
+.all{
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.40);
+    flex-basis: 400px;
+    height: 550px;
+}
+
+.screen{
+    background-color: rgba(255, 255, 255, 1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: right;
+}
+
+.calc-button-row{
+    display: flex;
+    justify-content: space-around;
+    margin: 4%;
+    text-align: center;
+}
+
+button{
+    font-family: 'Dosis' ,sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.double{
+    flex-basis: 47%;
+}
+
+.calc-button{
+    padding: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    border-radius: 12px;
+}
+
+.one{
+    padding-right: 3px;
+    padding-left: 2px;
+}
